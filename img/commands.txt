@@ -1,0 +1,17 @@
+magick convert Iconize.png -resize 256x256 Iconize-256.png
+magick convert Iconize-256.png Iconize-256.ico
+
+magick convert selectImage.png -resize 64x64 selectImage.gif
+magick convert selectImage.png -resize 32x32 selectImage.gif
+magick convert selectImage.png -resize 16x16 selectImage.gif
+magick convert selectImage.png -resize 20x20 selectImage.gif
+magick convert selectImage.png -resize 25x25 selectImage.gif
+magick convert selectImage.png -resize 32x32 selectImage.gif
+
+magick convert selectFolder.png -resize 32x32 selectFolder.gif
+
+magick convert engine.png -resize 256x256 engine.gif
+magick convert engine.png -resize 128x128 engine.gif
+magick convert engine.png -resize 64x64 engine.gif
+
+
